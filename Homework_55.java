@@ -16,7 +16,7 @@ public class Homework_55 {
       for (int i = 0; i < count; i++) {
         System.out.print("Введите число: ");
         int number = Integer.parseInt(reader.readLine());
-        if (number > 0 && number % 2 == 0 && number < minEven) {
+        if (number > 0 && number % 2 == 0 && (minEven == -1 || number < minEven)) {
           minEven = number;
           hasEven = true;
         }
