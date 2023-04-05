@@ -10,7 +10,7 @@ public class Homework_55 {
       System.out.print("Введите количество чисел: ");
       int count = Integer.parseInt(reader.readLine());
 
-      int minEven = Integer.MAX_VALUE;
+      int minEven = -1;
       boolean hasEven = false;
 
       for (int i = 0; i < count; i++) {
